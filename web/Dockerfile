@@ -5,4 +5,4 @@ RUN rm -rf /etc/nginx/nginx.conf
 ADD static /usr/share/nginx/html/
 ADD nginx.conf /etc/nginx/nginx.conf
 
-#ENV CATALOGUE_HOST="catalogue"
+ENV CATALOGUE_HOST="catalogue"
